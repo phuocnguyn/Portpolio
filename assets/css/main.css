@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fdf5f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Navigation */
+#nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px;
+  box-shadow: rgba(255, 0, 0, 0.3);
+}
+#nav a {
+  font-size: 24px;
+  display: inline-block;
+  color: #034c5f;
+  padding: 16px 24px;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+#nav a:hover {
+  border-bottom: solid #034c5f;
+  color: #034c5f;
+}
+/* about me  */
+#about-me {
+  padding-top: 150px;
+}
+
+.title .interview {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title .interview i {
+  font-weight: 700;
+  font-size: 26px;
+}
+.title .interview h1 {
+  font-size: 55px;
+  color: #ee6457;
+}
+.title .interview h4 {
+  font-size: 40px;
+  font-weight: 200;
+}
+.title .interview p {
+  margin-top: 10px;
+  font-size: 22px;
+  text-align: justify;
+}
+/* education */
+#education {
+  padding: 40px 0;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 30px 0;
+}
+#education .row {
+  font-size: 28px;
+  padding: 12px 0;
+}
+/* certificate */
+#certificate img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* contact */
+#contact {
+  margin-top: 30px;
+}
+#contact .thank-you h3 {
+  padding-left: 20px;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+#contact .thank-you h4 {
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-left: 60px;
+  font-weight: 100;
+  color: #ee6457;
+}
+#contact .box {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+#contact .box span {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f9c4ba;
+}
+#contact .box h4 {
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 800;
+  color: #97bec6;
+}
+#contact .box .ti-layout-line-solid {
+  font-size: 100px;
+}
+#contact .social-list {
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+  text-transform: uppercase;
+}
+#contact .social-list a {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 24px;
+  color: #034c5f;
+}
