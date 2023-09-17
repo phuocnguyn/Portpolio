@@ -63,7 +63,6 @@ body {
 }
 .title .interview span {
   font-size: 25px;
-  font-weight: ;
   color: #f0f8ff;
   text-shadow: 2px 0 0 #000;
 }
@@ -106,6 +105,7 @@ h2 {
   font-size: 80px;
   text-transform: uppercase;
   letter-spacing: 12px;
+  font-family: ambe;
 }
 #contact .thank-you h4 {
   text-transform: uppercase;
