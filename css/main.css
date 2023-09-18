@@ -39,7 +39,7 @@ body {
 }
 /* about me  */
 #about-me {
-  width: 100%;
+  
   padding-top: 150px;
 }
 
@@ -68,7 +68,7 @@ body {
   text-shadow: 2px 0 0 #000;
 }
 .title .interview p {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 22px;
   text-align: justify;
   color: #000;
@@ -107,7 +107,7 @@ h2 {
   line-height: 100px;
   font-size: 80px;
   text-transform: uppercase;
-  letter-spacing: 30px;
+  letter-spacing: 95px;
   font-family: Amber Strong;
 }
 #contact .thank-you h4 {
