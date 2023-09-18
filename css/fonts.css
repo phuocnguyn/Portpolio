@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Amber Strong;
+    src:url('../fonts/amber-queen.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+   }
+   @font-face {
+    font-family: Autumn Wind;
+    src:url('../fonts/Autumn Wind.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+   }
+   
