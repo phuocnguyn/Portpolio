@@ -3,19 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   /* background-color: #fdf5f4; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Calibri;
 }
 .xanh-dam {
   background-color: #4682b4;
+  width:max-content;
 }
 .xanh-nhat {
+  width: max-content;
   background-color: #f0f8ff;
 }
 /* Navigation */
 #nav {
+  z-index: 10;
   width: 100%;
   position: fixed;
   display: flex;
@@ -73,10 +79,6 @@ body {
   text-align: justify;
   color: #000;
 }
-/* education */
-#education {
-  padding: 40px 0;
-}
 .xanh-dam h2 {
   color: #f0f8ff;
 }
@@ -84,41 +86,57 @@ body {
   color: #000;
 }
 h2 {
+  width: 100%;
   text-align: center;
   font-size: 50px;
   padding:  30px 0;
 }
-#education .row {
-  font-size: 28px;
-  padding: 12px 0;
+/* Qualification */
+#qualification{
+  width:;
 }
 /* certificate */
 #certificate{
   padding-bottom: 20px;
+
 }
-#certificate img {
+#certificate .certificate-list img {
   width: 100%;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 #certificate .certificate-list{
-  display: flex;
+  
+}
+#certificate .certificate-list .certificate-information{
+
+}
+#certificate .certificate-list{
   align-items: center;
   text-align: center;
 }
-.slick-dots{
-  display: inline-block;
-  list-style-type: none;
+.certificate-image-list .certificate-image{
+  margin: 10px;
+  width: 100%;
+  z-index: 0!important;
+}
+.slick-track{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.certificate-image-list ul{
+  display: none!important;
 }
 .event-name a{
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
-  font-size: 40px;
-
+  font-size: 28px;
+  color: #f0f8ff;
 }
 .organizer-name a{
-  font-size: 40px;
+  font-size: 28px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: #f0f8ff;
 }
 /* contact */
 #contact {
