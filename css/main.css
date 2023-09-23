@@ -13,11 +13,14 @@ body {
 }
 .xanh-dam {
   background-color: #4682b4;
-  width:max-content;
+
 }
 .xanh-nhat {
-  width: max-content;
+  
   background-color: #f0f8ff;
+}
+.about-me-mobile{
+  display: none;
 }
 /* Navigation */
 #nav {
@@ -49,31 +52,31 @@ body {
   padding-top: 150px;
 }
 
-.title .interview {
+ .interview {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.title .interview i {
+ .interview i {
   font-weight: 700;
   font-size: 26px;
 }
-.title .interview h1 {
+ .interview h1 {
   font-size: 72px;
   color: #f0f8ff;
   text-shadow: 2px 0 0 #000;
 }
-.title .interview h4 {
+ .interview h4 {
   font-size: 40px;
   font-weight: 200;
   margin-bottom: 10px;
 }
-.title .interview span {
+ .interview span {
   font-size: 25px;
   color: #f0f8ff;
   text-shadow: 2px 0 0 #000;
 }
-.title .interview p {
+ .interview p {
   margin-top: 20px;
   font-size: 22px;
   text-align: justify;
@@ -144,7 +147,7 @@ h2 {
 }
 #contact .thank-you h3 {
   text-align: center;
-  
+  padding-left: 83px;
   line-height: 100px;
   font-size: 80px;
   text-transform: uppercase;
@@ -152,6 +155,7 @@ h2 {
   font-family: Amber Strong;
 }
 #contact .thank-you h4 {
+  
   text-transform: uppercase;
   font-size: 50px;
   padding-left: 60px;
@@ -189,4 +193,77 @@ h2 {
   font-size: 20px;
   margin: 0 24px;
   color: #4682b4;
+}
+@media screen and (min-width: 740px) and (max-width: 1239px) {
+  #about-me img{
+    object-fit:contain;
+  }
+  .title .interview h1{
+    font-size: 39px;
+  }
+  .title .interview h4{
+    font-size: 30px;
+  }
+  .title .interview span{
+    font-size: 19px;
+  }
+  .title .interview p{
+    font-size: 14px;
+  }
+  #contact .thank-you h3{
+    padding-left: 75px;
+  }
+  #contact .thank-you h4{
+    text-align: center;
+    font-size: 40px;
+    padding-left: 0;
+  }
+  #contact .box p{
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 739px){
+  #nav{
+    display: none;
+    min-height: 12px;
+  }
+  #nav a{
+    display: none;
+  }
+  .about-me-pc{
+    display: none;
+  }
+  .about-me-mobile{
+    display: block;
+  }
+  #contact .thank-you h3 {
+    padding-left: 26px;
+    font-size: 60px;
+    letter-spacing: 45px;
+  }
+  #contact .box p{
+    font-size: 11px;
+  }
+  #contact .box .address p{
+    font-size: 20px;
+  }
+  
+    .interview i {
+      font-size: 17px;
+    }
+    .interview h1 {
+      font-size: 27px;
+    }
+    .interview h4 {
+      font-size: 21px;
+    }
+    .interview span {
+      font-size: 13px;
+    }
+    .about-me-mobile p{
+      text-align: justify;
+      padding: 12px 0 ;
+    }
+
+   
 }
