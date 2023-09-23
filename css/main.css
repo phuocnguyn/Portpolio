@@ -98,33 +98,18 @@ h2 {
 /* certificate */
 #certificate {
   padding-bottom: 20px;
-  height: max-content;
+  
 }
-.ps-current{
-  height: max-content;
-}
-#certificate .certificate-list img {
+
+#certificate .pgwSlider img {
   width: 100%;
   object-fit: cover;
   margin-bottom: 20px;
   
 }
-#certificate .certificate-list {
-  align-items: center;
-  text-align: center;
-}
-.certificate-image-list .certificate-image {
-  margin: 10px;
-  width: 100%;
-  z-index: 0 !important;
-}
-.slick-track {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.certificate-image-list ul {
-  display: none !important;
-}
+
+
+
 .event-name a {
   text-transform: uppercase;
   text-decoration: none;
