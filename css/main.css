@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -13,13 +13,11 @@ body {
 }
 .xanh-dam {
   background-color: #4682b4;
-
 }
 .xanh-nhat {
-  
   background-color: #f0f8ff;
 }
-.about-me-mobile{
+.about-me-mobile {
   display: none;
 }
 /* Navigation */
@@ -48,36 +46,34 @@ body {
 }
 /* about me  */
 #about-me {
-  
   padding-top: 150px;
 }
 
- .interview {
+.interview {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
- .interview i {
+.interview i {
   font-weight: 700;
   font-size: 26px;
-  
 }
- .interview h1 {
+.interview h1 {
   font-size: 72px;
   color: #f0f8ff;
   text-shadow: 2px 0 0 #000;
 }
- .interview h4 {
+.interview h4 {
   font-size: 40px;
   font-weight: 200;
   margin-bottom: 10px;
 }
- .interview span {
+.interview span {
   font-size: 25px;
   color: #f0f8ff;
   text-shadow: 2px 0 0 #000;
 }
- .interview p {
+.interview p {
   margin-top: 20px;
   font-size: 22px;
   text-align: justify;
@@ -93,50 +89,49 @@ h2 {
   width: 100%;
   text-align: center;
   font-size: 50px;
-  padding:  30px 0;
+  padding: 30px 0;
 }
 /* Qualification */
-#qualification{
-  width:;
+#qualification {
+  width: ;
 }
 /* certificate */
-#certificate{
+#certificate {
   padding-bottom: 20px;
-
+  height: max-content;
+}
+.ps-current{
+  height: max-content;
 }
 #certificate .certificate-list img {
   width: 100%;
-  margin: 10px 0;
-}
-#certificate .certificate-list{
+  object-fit: cover;
+  margin-bottom: 20px;
   
 }
-#certificate .certificate-list .certificate-information{
-
-}
-#certificate .certificate-list{
+#certificate .certificate-list {
   align-items: center;
   text-align: center;
 }
-.certificate-image-list .certificate-image{
+.certificate-image-list .certificate-image {
   margin: 10px;
   width: 100%;
-  z-index: 0!important;
+  z-index: 0 !important;
 }
-.slick-track{
+.slick-track {
   display: flex;
   flex-wrap: nowrap;
 }
-.certificate-image-list ul{
-  display: none!important;
+.certificate-image-list ul {
+  display: none !important;
 }
-.event-name a{
+.event-name a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 15px;
   color: #f0f8ff;
 }
-.organizer-name a{
+.organizer-name a {
   font-size: 28px;
   text-decoration: none;
   text-transform: uppercase;
@@ -156,14 +151,13 @@ h2 {
   font-family: Amber Strong;
 }
 #contact .thank-you h4 {
-  
   text-transform: uppercase;
   font-size: 50px;
   padding-left: 60px;
   font-weight: 100;
   color: #4682b4;
 }
-#contact .box{
+#contact .box {
   padding-top: 20px;
 }
 #contact .box p {
@@ -182,89 +176,116 @@ h2 {
 #contact .box .ti-layout-line-solid {
   font-size: 100px;
 }
-#contact .social-list {
+.social-list {
   margin-top: 70px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
 }
-#contact .social-list a {
+.social-list a {
   text-decoration: none;
   font-size: 20px;
   margin: 0 24px;
   color: #4682b4;
 }
 @media screen and (min-width: 740px) and (max-width: 1239px) {
-  #about-me img{
-    object-fit:contain;
+  #about-me img {
+    object-fit: contain;
   }
-  .title .interview h1{
+  .title .interview h1 {
     font-size: 39px;
   }
-  .title .interview h4{
+  .title .interview h4 {
     font-size: 30px;
   }
-  .title .interview span{
+  .title .interview span {
     font-size: 19px;
   }
-  .title .interview p{
+  .title .interview p {
     font-size: 14px;
   }
-  #contact .thank-you h3{
+  #contact .thank-you h3 {
     padding-left: 75px;
   }
-  #contact .thank-you h4{
+  #contact .thank-you h4 {
     text-align: center;
-    font-size: 40px;
+    font-size: 56px;
     padding-left: 0;
   }
-  #contact .box p{
-    font-size: 19px;
+  #contact .box p {
+    font-size: 21px;
   }
 }
-@media screen and (max-width: 739px){
-  #nav{
+@media screen and (max-width: 739px) {
+  #nav {
     display: none;
     min-height: 12px;
   }
-  #nav a{
+  #nav a {
     display: none;
   }
-  .about-me-pc{
+  .about-me-pc {
     display: none;
   }
-  .about-me-mobile{
+  .about-me-mobile {
     display: block;
   }
   #contact .thank-you h3 {
     padding-left: 26px;
-    font-size: 60px;
-    letter-spacing: 45px;
+    font-size: 40px;
+    letter-spacing: 23px;
   }
-  #contact .box p{
+  #contact .thank-you h4{
+    padding: 0;
+    font-size: 26px;
+    text-align: center;
+  }
+  #contact .box p {
     font-size: 11px;
   }
-  #contact .box .address p{
+  #contact .box .address p {
     font-size: 20px;
   }
-  
-    .interview i {
-      font-size: 17px;
-    }
-    .interview h1 {
-      font-size: 27px;
-    }
-    .interview h4 {
-      font-size: 21px;
-    }
-    .interview span {
-      font-size: 13px;
-    }
-    .about-me-mobile p{
-      text-align: justify;
-      padding: 12px 0 ;
-    }
 
-   
+  .interview i {
+    font-size: 17px;
+  }
+  .interview h1 {
+    font-size: 27px;
+  }
+  .interview h4 {
+    font-size: 21px;
+  }
+  .interview span {
+    font-size: 13px;
+  }
+
+  .about-me-mobile{
+    display: flex;
+    align-items: center;
+  }
+  .about-me-mobile p {
+    text-align: justify;
+    padding-top: 30px;
+    font-size: 14px;
+  }
+  .social-list {
+  
+    margin-top: 24px;
+    margin-bottom: 1px;
+  }
+  .social-list a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 24px;
+    
+  }
+  .about-me-mobile .social-list a{
+    color: #000;
+    margin: 0 12px;
+  }
+  #contact .social-list{
+    display: none;
+  }
 }
