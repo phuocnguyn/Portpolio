@@ -92,23 +92,23 @@ h2 {
   padding: 30px 0;
 }
 /* Qualification */
-#qualification img{
- width: 100%;
+#qualification{
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+#qualification img {
+  width: 100%;
 }
 /* certificate */
 #certificate {
   padding-bottom: 20px;
-  
 }
 
 #certificate .pgwSlider img {
   width: 100%;
   object-fit: cover;
   margin-bottom: 20px;
-  
 }
-
-
 
 .event-name a {
   text-transform: uppercase;
@@ -197,7 +197,6 @@ h2 {
     font-size: 21px;
   }
   .event-name a {
-    
     font-size: 10px;
   }
 }
@@ -220,7 +219,7 @@ h2 {
     font-size: 40px;
     letter-spacing: 23px;
   }
-  #contact .thank-you h4{
+  #contact .thank-you h4 {
     padding: 0;
     font-size: 26px;
     text-align: center;
@@ -245,22 +244,20 @@ h2 {
     font-size: 13px;
   }
 
-  .about-me-mobile{
+  .about-me-mobile {
     display: flex;
     align-items: center;
   }
   .about-me-mobile p {
     text-align: justify;
-    padding-top: 30px;
+    padding-top: 60px;
     font-size: 11px;
   }
   .event-name a {
     display: none;
     font-size: 5px;
-    
   }
   .social-list {
-  
     margin-top: 24px;
     margin-bottom: 1px;
   }
@@ -268,13 +265,12 @@ h2 {
     text-decoration: none;
     font-size: 20px;
     margin: 0 24px;
-    
   }
-  .about-me-mobile .social-list a{
+  .about-me-mobile .social-list a {
     color: #000;
     margin: 0 12px;
   }
-  #contact .social-list{
+  #contact .social-list {
     display: none;
   }
 }
