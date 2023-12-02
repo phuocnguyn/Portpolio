@@ -11,10 +11,10 @@ body {
   /* background-color: #fdf5f4; */
   font-family: Calibri;
 }
-.xanh-dam {
+.SteelBlue {
   background-color: #4682b4;
 }
-.xanh-nhat {
+.AliceBlue {
   background-color: #f0f8ff;
 }
 .about-me-mobile {
@@ -92,7 +92,7 @@ h2 {
   padding: 30px 0;
 }
 /* Qualification */
-#qualification{
+#qualification {
   margin-top: -20px;
   margin-bottom: -20px;
 }
